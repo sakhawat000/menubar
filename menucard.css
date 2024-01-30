@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    color: grey
+}
+.items{
+    display: grid;
+    grid-template-columns: repeat(3, 1f1);
+    padding: 30px 20px;
+    grid-column-gap: 30px;
+}
+.item img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+.item img:hover{
+
+    transform: scale(1.04);
+}
+.h{
+   text-align: center;
+   padding: 5px;
+   height: 200px;
+   width: 200px;
+    
+}
+.item button{
+    padding: 5px 30px;
+    border: none;
+    outline: none;
+    background-color: aqua;S
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    display: bock;
+    margin: o auto;
+
+}
