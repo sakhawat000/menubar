@@ -37,4 +37,26 @@ body{
     
 }
 
+  .nav2{
+    background-color: blue;
+    place-items:center;
+    display: grid ;
+
+  }  
+  .ul2{
+    list-style: none;
+  }
+  .a2{
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    color: gray
+    font-size: 18px;
     
+  }
+  .a2:hover{
+    background-color: aquamarine;
+    color: chartreuse;
+  }
+
+  
